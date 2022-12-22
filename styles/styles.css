@@ -433,6 +433,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
 }
 
 .footer-social-link {
@@ -448,8 +449,8 @@ body {
   fill: var(--color-second-white);
 }
 
-.footer-social-link:hover,
-.footer-icon-link:focus {
+.icon-footer:hover,
+.icon-footer:focus {
   background-color: #31d0aa;
 }
 
