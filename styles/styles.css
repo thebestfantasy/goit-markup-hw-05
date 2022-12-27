@@ -552,11 +552,87 @@ body {
   text-decoration: none;
 }
 
-/* --------------------- Animation -------------*/
+/* --------------------- slider -------------*/
 
-@keyframes bot-to-top {
+/* .portfolio-thumb-card {
+  position: relative;
+  overflow: hidden;
+} */
+
+.portfolio-link {
+}
+
+.overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-accent);
+  transform: translateY(0%);
+  transition: transform var(--transiton-fast);
+}
+
+/* .portfolio-list-item .overlay:hover,
+.portfolio-list-item .overlay:focus {
+  transform: translateY(101%);
+} */
+
+/* .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-accent);
+  transform: translateY(0%);
+  transition: transform var(--transiton-fast);
+  /* transition: transform var(--transiton-fast); */
+/* transform: rotateY(100%); 
+} */
+
+/* .slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+/* .portfolio-list-item .overlay:hover,
+.portfolio-list-item .overlay:focus {
+  transform: translateY(-100%);
+}
+
+.slider > p {
+  color: var(--color-second-white);
+  text-align: left;
+  padding-left: 32px;
+  padding-top: 40px;
+  padding-right: 32px;
+} */
+
+/* .undertitle {
+ transform: rotateY(0px);
+  animation: bot-to-top 1s ease-in-out 0s 100;
+  background-color: var(--color-accent); 
+}*/
+
+/* @keyframes bot-to-top {
   0% {
     opacity: 0;
-    transform: translateY(-100px);
+    transform: translateY(0px);
   }
-}
+  50% {
+   opacity: 0.6; 
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-300px);
+  }
+} */
